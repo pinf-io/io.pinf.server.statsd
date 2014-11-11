@@ -1,0 +1,4 @@
+/project/node_modules/
+/plugins/*/node_modules/
+/node_modules/
+/.pio.cache/

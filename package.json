@@ -1,0 +1,14 @@
+{
+  "name": "io.pinf.server.statsd",
+  "version": "0.0.0",
+  "private": true,
+  "pm": "npm",
+  "dependencies": {
+    "statsd-socket.io": "0.0.6"
+  },
+  "config": {
+    "pio.deploy.converter": {
+      "name": "nodejs-server"
+    }
+  }
+}

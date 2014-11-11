@@ -1,0 +1,6 @@
+[submodule "project"]
+	path = project
+url=https://github.com/etsy/statsd.git
+[submodule "plugins/mongo-statsd-backend"]
+	path = plugins/mongo-statsd-backend
+	url = git@github.com:pinf-io/github.com_dynmeth_mongo-statsd-backend.git
