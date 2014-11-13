@@ -112,12 +112,17 @@ Optional Variables:
 
 var configPath = PATH.join(__dirname, "config.json");
 FS.writeFileSync(configPath, JSON.stringify({
+
+  debug: true,
+
 	port: process.env.PORT,
+
+  flushInterval: 15 * 1000,
 
 	mongoHost: '127.0.0.1',
     mongoPort: 27017,
     mongoMax: 2160, 
-    mongoPrefix: true, 
+    mongoPrefix: false,
     mongoName: 'statsd',
 
 	socketPort: pioConfig.env.SOCKET_IO_PORT,
